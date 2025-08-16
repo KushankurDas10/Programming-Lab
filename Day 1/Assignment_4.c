@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     printf("Enter the number you want to get the multiplication table of: ");
-    int num, i;
+    int num;
     scanf("%d", &num);
     printf("Multiplication table of %d:\n", num);
     printf("%d x 1 = %d\n", num, num * 1);
@@ -15,4 +15,5 @@ int main(){
     printf("%d x 9 = %d\n", num, num * 9);
     printf("%d x 10 = %d\n", num, num * 10);
     return 0;
+
 }
